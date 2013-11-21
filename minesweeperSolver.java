@@ -25,7 +25,9 @@ class minesweeperSolver {//start one
            zeroRow[i] = fos;   
           }
          if(x==1){
-         for
+             for(int g=0; g<1; g++){
+                 JOptionPane.showMessageDialog(null, "Now for the second row");
+             }
          fo = JOptionPane.showOptionDialog(null, "What is the second rows numbers? If no number(not know) please enter 0", "What is the first squares number? If no number(not know) please enter 0", JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null, options, options[0]);
         
          fos = Integer.toString(fo);
